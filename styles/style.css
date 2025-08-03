@@ -308,15 +308,10 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-
-  /* Adicione estilos */
 }
 
 .step {
-  width: 220px;
-  flex-basis: auto;
-
-  /* Adicione estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -338,7 +333,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 80px;
 }
@@ -387,17 +382,18 @@
   color: white;
   text-decoration: none;
   display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
   padding: 0;
-  margin: 0;
+  margin-top: 100px;
   font-size: 14px;
   position: relative;
   bottom: 0;
